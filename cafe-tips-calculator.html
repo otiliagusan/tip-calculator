@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tips-calc-styles.css">
+</head>
+
+<body>
+    <section class="container">
+        <section class="billing-container">
+        <section class="billing calc ">
+            <div class="input calculations">
+                <label for="bill" class="label">Bill Amount</label>
+                <input type="text" id="bill" placeholder="$" class="bill-input">
+            </div>
+           
+            <div class="number-people input calculations">
+                <label class="label" for="people">Number of People</label>
+                <input type="text" id="people" class="people-input">
+            </div>
+            <div class="select-tip calculations">
+                <p>Select Tip</p>
+                <div class="tip-buttons">
+                    <button class="btn procent-2"><div class="value-btn">2%</button>
+                    <button class="btn procent-5"><div class="value-btn">5%</button>
+                    <button class="btn procent-10"><div class="value-btn">10%</button>
+                    <button class="btn procent-15"><div class="value-btn">15%</button>
+                    <button class="btn procent-25"><div class="value-btn">25%</button>
+                    <button class="btn procent-50"><div class="value-btn">50%</button>
+                </div>
+            </div>
+        </section>
+        <section class="billing display">
+            <div class="amount">
+                <div class="value-text">
+                <p>Tip amount</p>
+                <p class="small-text">/person</p>
+                </div>
+                <div class="tip-value">
+                <p>0</p><p>$</p>
+                </div>
+            </div>
+            <div class="amount">
+                <div class="value-text">
+                    <p>Total</p>
+                    <p class="small-text">/person</p>
+                </div>
+                <div class="tip-value">
+                    <p>0</p><p>$</p>
+                </div>
+            </div> 
+            <button class="btn reset">Reset</button>
+            </section>
+        </section>
+    </section>
+    <script src="tips-calcJS.js"></script>
+</body>
+
+</html>
